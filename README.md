@@ -20,7 +20,7 @@ Angular is the JavaScript framework that we'll explore as a class. There are man
 <!-- call out the skills that are prerequisites -->
 *Before this workshop, developers should already be able to:*
 
-- use Handlebars templates to populate your page with data.
+- use template literals to populate your page with data.
 - manipulate the DOM using jQuery.
 - use AJAX to make HTTP calls to the server side.
 
@@ -71,7 +71,7 @@ We'll discover that Angular uses lots of new custom attributes or `directives`.
 Literally ever single attribute we might want to use in plain-old html has an equivalent angular attribute. These are always prefixed with `ng-*` or `data-ng-*` (we're going to stick with `ng-*`). For instance, an angular-style href is called `ng-href` or `data-ng-href`, and in the docs it's called [ngHref](https://docs.angularjs.org/api/ng/directive/ngHref).
 
 **Expressions**
-When we used Handlebars, we used the `{{}}` syntax to drop dynamic values into our html templates. Similarly in Angular, blocks of code within `{{}}`s are called *expressions*.  You can put working JavaScript inside of an expression. It's a JavaScript oasis inside of the html!
+In Angular, blocks of code within `{{}}`s are called *expressions*.  You can put working JavaScript inside of an expression. It's a JavaScript oasis inside of the html!
 
 ![Oasis](http://images.fineartamerica.com/images-medium-large-5/desert-oasis-robert-thornton.jpg)
 
