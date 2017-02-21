@@ -228,7 +228,7 @@ angular
   .module('tunely', [])
   .controller('PageController', PageController);
 
-  function PageController () {
+function PageController () {
   var vm = this;
 
   vm.newPerson = {
