@@ -230,7 +230,6 @@ angular
 
   function PageController () {
   var vm = this;
-  vm.newPerson = {};
 
   vm.newPerson = {
       name: 'Cory',
