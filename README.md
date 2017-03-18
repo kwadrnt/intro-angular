@@ -4,7 +4,7 @@
 <!-- framing the "why" in big-picture/real world examples -->
 *This workshop is important because:*
 
-Angular is the JavaScript framework that we'll explore as a class. There are many frameworks that all aim to solve the same pain points for JavaScript developers. Learning one framework is a foot in the door for teaching yourself React, Ember.js, Backbone, Angular 2, and whichever framework your employers use.
+Angular is one JavaScript framework that we'll explore as a class. There are many frameworks that all aim to solve the same pain points for JavaScript developers. Learning one framework is a foot in the door for teaching yourself React, Ember.js, Backbone, Angular 2, and whichever framework your employers use.
 
 
 ### What are the objectives?
@@ -44,7 +44,7 @@ Stuff that has been said about Angular:
 ## Refresher
 
 ### HTML attributes
-In `HTML` when you can add additional information to tags by using attributes like: `src`, `href`, `type`, `name`, `placeholder`, etc.
+In `HTML` you can add additional information to tags by using attributes like: `src`, `href`, `type`, `name`, `placeholder`, etc.
 
 ```html
 <img src="/cute-cat-3.gif">
@@ -64,11 +64,11 @@ This is like saying `checked=true` and `disabled=true`. [x]
 Sometimes it's helpful to attach additional information to an element so that you can reference it in your javascript or stylesheet. We can do this using the `data-*` attribute
 
 ```html
-<h1 data-wdi-number="27">Welcome to WDI!</h1>
+<h1 data-wdi-number="36">Welcome to WDI!</h1>
 ```
 
 We'll discover that Angular uses lots of new custom attributes or `directives`.
-Literally ever single attribute we might want to use in plain-old html has an equivalent angular attribute. These are always prefixed with `ng-*` or `data-ng-*` (we're going to stick with `ng-*`). For instance, an angular-style href is called `ng-href` or `data-ng-href`, and in the docs it's called [ngHref](https://docs.angularjs.org/api/ng/directive/ngHref).
+Literally every single attribute we might want to use in plain-old html has an equivalent angular attribute. These are always prefixed with `ng-*` or `data-ng-*` (we're going to stick with `ng-*`). For instance, an angular-style href is called `ng-href` or `data-ng-href`, and in the docs it's called [ngHref](https://docs.angularjs.org/api/ng/directive/ngHref).
 
 **Expressions**
 In Angular, blocks of code within `{{}}`s are called *expressions*.  You can put working JavaScript inside of an expression. It's a JavaScript oasis inside of the html!
@@ -103,6 +103,7 @@ It turns out you can do the same thing using inline click-listeners (long consid
 ```
 
 Note that your javscript expression is literally a string here.
+
 ```js
 "alert('Holy moly!')"
 ```
@@ -174,7 +175,8 @@ Most applications will have several controllers. Each controller controls a diff
 
 To use our controller in our View we have to declare it somewhere.
 
-index.html
+In index.html
+
 ```html
 <div ng-controller="AlbumsIndexController as albumsIndexCtrl">
 	<!--placeholder for now-->
@@ -247,8 +249,8 @@ We'd then declare its use in the proper place in our html:
 ```
 
 ## Practice
-* [Intro Angular Challenges](https://github.com/sf-wdi-33/intro_angular_challenges)
+* [Intro Angular Challenges](https://github.com/SF-WDI-LABS/intro_angular_challenges)
 <!-- https://github.com/SF-WDI-LABS/intro_angular_challenges -->
 
-* [Tunely Angular, Sprint#1](https://github.com/sf-wdi-33/tunely-angular)
+* [Tunely Angular, Sprint#1](https://github.com/SF-WDI-LABS/tunely-angular)
 <!-- https://github.com/sf-wdi-33/tunely-angular -->
