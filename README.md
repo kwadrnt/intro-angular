@@ -20,7 +20,7 @@ Angular is one JavaScript framework that we'll explore as a class. There are man
 <!-- call out the skills that are prerequisites -->
 *Before this workshop, developers should already be able to:*
 
-- use template literals to populate your page with data.
+- use JavaScript string template literals to add data to your page.  
 - manipulate the DOM using jQuery.
 - use AJAX to make HTTP calls to the server side.
 
