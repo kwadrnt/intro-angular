@@ -1,16 +1,24 @@
 <!DOCTYPE HTML>
-<html ng-app="noodleApp">
+<!-- set ng-app to app name -->
+<html ng-app="peopleApp">
     <head>
-        <title>Playing with Angular</title>
+        <title>People App</title>
+        <!-- link angular -->
         <script src="angular.min.js"></script>
-        <script src="Noodle.js"></script>
+        <script src="People.js"></script>
     </head>
     <body>
-        <div ng-controller="NoodleController as noodleCtrl">
-            <h1>{{noodleCtrl.flavor}}</h1>
+    <!-- for ng-controller, the "as" part sets up a name that we can call the controller's "vm" -->
+        <div ng-controller="PageController as pageCtrl">
+            <h1>{{pageCtrl.classList}}</h1>
+            <span>Enter your jobs:</span>
+            <input type="text" ng-model="jobs">
+
+                <h1>{{ jobs }}</h1>
             <ul>
-                <li ng-repeat="noodle in noodleCtrl.noodles">
-                    {{noodle.name}} with {{noodle.sauce}}
+                <!--  -->
+                <li ng-repeat="newPerson in pageCtrl.newPerson">
+                    {{newPerson.name}} is a {{newPerson.occupation}}
                 </li>
             </ul>
         </div>
